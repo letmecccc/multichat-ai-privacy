@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MultiChat AI — Privacy Policy</title>
+<style>
+  body { max-width: 700px; margin: 40px auto; font-family: -apple-system, BlinkMacSystemFont, sans-serif; line-height: 1.7; color: #333; padding: 0 20px; }
+  h1 { font-size: 24px; }
+  h2 { font-size: 18px; margin-top: 28px; }
+  table { border-collapse: collapse; width: 100%; margin: 12px 0; }
+  th, td { border: 1px solid #ddd; padding: 8px 12px; text-align: left; }
+  th { background: #f5f5f5; }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy</h1>
+<p><strong>Last Updated:</strong> June 1, 2026</p>
+
+<h2>Overview</h2>
+<p>MultiChat AI is a browser extension that helps you chat with multiple AI websites simultaneously within a single browser tab. We take your privacy seriously.</p>
+
+<h2>Data Collection</h2>
+<p><strong>MultiChat AI does NOT collect, store, or transmit any of your personal data.</strong> The extension operates entirely within your browser. No analytics, telemetry, or tracking code is included. No crash reports are collected.</p>
+
+<h2>How It Works</h2>
+<p>The extension loads AI websites inside iframes within a dashboard page. When you type a question, your message is sent to each AI via the browser's built-in messaging system. Each AI processes your question on its own servers per its own privacy policy. MultiChat AI itself never sees, intercepts, stores, or transmits your conversations.</p>
+
+<h2>Permissions</h2>
+<table>
+<tr><th>Permission</th><th>Purpose</th></tr>
+<tr><td>storage</td><td>Save preferences locally</td></tr>
+<tr><td>scripting</td><td>Inject scripts for message passing</td></tr>
+<tr><td>declarativeNetRequest</td><td>Strip iframe-blocking headers</td></tr>
+<tr><td>activeTab</td><td>Open dashboard on icon click</td></tr>
+<tr><td>tabs</td><td>Manage extension tab</td></tr>
+<tr><td>contextMenus</td><td>Lock Send Button feature</td></tr>
+<tr><td>host: all_urls</td><td>Support any user-added AI site</td></tr>
+</table>
+<p>All data stays local. Nothing uploaded or shared.</p>
+
+<h2>Third-Party Services</h2>
+<p>When you interact with AI services, those services process messages per their own policies: DeepSeek, Kimi, Qianwen, Yuanbao, Doubao.</p>
+
+<h2>Your Data</h2>
+<p>All settings stored via <code>chrome.storage.local</code>. Clear by removing the extension.</p>
+
+</body>
+</html>
